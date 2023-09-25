@@ -1,3 +1,4 @@
+
 <?php
 if(isset($_GET['page'])){
     $page = $_GET['page'];
@@ -39,10 +40,10 @@ $sql = "Select * from users order by created_at Desc LIMIT 10, 20";
                 ?>
                 <div class="main-content">
                     <div class="container">
-                        <div class="row">
+                        <div class="row h-100">
                             <!-- Ô vuông thứ nhất -->
                             <div class="col-md-6">
-                                <div class="bg-primary p-3">
+                                <div class="bg-primary p-3 h-100">
                                     <!-- Nội dung ô vuông thứ nhất -->
                                     <h2>Ô vuông 1</h2>
                                     <p>Nội dung ô vuông thứ nhất</p>
